@@ -22,12 +22,12 @@ using System.Windows;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("QuickLook")]
+[assembly: AssemblyTitle("ilkBakış")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("pooi.moe")]
-[assembly: AssemblyProduct("QuickLook")]
-[assembly: AssemblyCopyright("Copyright © Paddy Xu 2017")]
+[assembly: AssemblyCompany("İLKADAM YAZILIM VE BİLİŞİM TEKNOLOJİLERİ")]
+[assembly: AssemblyProduct("ilkBakis")]
+[assembly: AssemblyCopyright("Copyright © İLKADAM YAZILIM VE BİLİŞİM TEKNOLOJİLERİ")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

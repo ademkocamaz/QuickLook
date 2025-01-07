@@ -44,7 +44,7 @@ internal class Updater
         {
             try
             {
-                var json = DownloadJson("https://api.github.com/repos/QL-Win/QuickLook/releases/latest");
+                var json = DownloadJson("https://api.github.com/repos/ademkocamaz/ilkBakis/releases/latest");
 
                 var nVersion = (string)json["tag_name"];
                 //nVersion = "9.2.1";
@@ -67,7 +67,7 @@ internal class Updater
                             string.Format(TranslationHelper.Get("Update_Found"), nVersion),
                             timeout: 20000,
                             clickEvent:
-                            () => Process.Start("https://github.com/QL-Win/QuickLook/releases/latest"));
+                            () => Process.Start("https://github.com/ademkocamaz/ilkBakis/releases/latest"));
                     });
             }
             catch (Exception e)
@@ -86,7 +86,7 @@ internal class Updater
         {
             try
             {
-                var json = DownloadJson("https://api.github.com/repos/QL-Win/QuickLook/releases");
+                var json = DownloadJson("https://api.github.com/repos/ademkocamaz/ilkBakis/releases");
 
                 var notes = "# QuickLook has been updated!\r\n";
 
